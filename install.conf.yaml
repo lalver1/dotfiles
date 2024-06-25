@@ -10,3 +10,6 @@
     - command: bash prepare.sh
       stderr: true
       stdout: true
+    - command: bash setup_bash.sh
+      stderr: true
+      stdout: true
