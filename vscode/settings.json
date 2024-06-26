@@ -1,0 +1,58 @@
+{
+    "breadcrumbs.enabled": true,
+    "dotfiles.installCommand": "./install",
+    "dotfiles.repository": "https://github.com/lalver1/dotfiles.git",
+    "dotfiles.targetPath": "~/.dotfiles",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [80, 127],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": false,
+    "files.associations": {
+      "*bash*": "shellscript",
+      "Dockerfile*": "dockerfile",
+      "*.env*": "dotenv",
+      "*ignore*": "ignore",
+      "*.json": "jsonc"
+    },
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "jupyter.askForKernelRestart": false,
+    "[liquid]": {
+      "editor.defaultFormatter": "sissel.shopify-liquid",
+      "editor.formatOnSave": true
+    },
+    "python.analysis.diagnosticMode": "workspace",
+    "python.experiments.optOutFrom": ["pythonTestAdapter"],
+    "python.languageServer": "Pylance",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      }
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "remote.extensionKind": {
+      "ms-azuretools.vscode-docker": "workspace"
+    },
+    "svg.preview.mode": "svg",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.env.linux": {},
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "bash"
+      }
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 3,
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vscode-icons"
+  }

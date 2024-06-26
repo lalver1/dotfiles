@@ -13,3 +13,6 @@
     - command: bash setup_bash.sh
       stderr: true
       stdout: true
+    - command: bash vscode/install-extensions.sh
+      stderr: true
+      stdout: true
