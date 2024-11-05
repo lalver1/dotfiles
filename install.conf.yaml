@@ -10,3 +10,4 @@
     - command: . aliases.sh
       stderr: true
       stdout: true
+      stdin: true
