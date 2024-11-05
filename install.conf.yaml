@@ -6,11 +6,15 @@
 
 - clean: ["~"]
 
+- link:
+    ~/.shell:
+    ~/.bash_logout:
+    ~/.bash_profile:
+    ~/.bashrc:
+    ~/.editorconfig:
+
 - shell:
-    - command: bash prepare.sh
-      stderr: true
-      stdout: true
-    - command: bash setup_bash.sh
+    - command: bash aliases.sh
       stderr: true
       stdout: true
     - command: bash vscode/install-extensions.sh
