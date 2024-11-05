@@ -11,3 +11,9 @@
       stderr: true
       stdout: true
       stdin: true
+
+- shell:
+    - command: echo second command
+      stderr: true
+      stdout: true
+      stdin: true
