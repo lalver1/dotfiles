@@ -6,20 +6,5 @@
 
 - clean: ["~"]
 
-- shell:
-    - command: . aliases.sh
-      stderr: true
-      stdout: true
-      stdin: true
-
-- shell:
-    - command: echo second command
-      stderr: true
-      stdout: true
-      stdin: true
-
-- shell:
-    - command: alias lsa='ls -GFlah'
-      stderr: true
-      stdout: true
-      stdin: true
+- link:
+    ~/.bashrc: .bashrc
