@@ -6,15 +6,7 @@
 
 - clean: ["~"]
 
-- link:
-    ~/.shell:
-    ~/.bash_logout:
-    ~/.bash_profile:
-    ~/.bashrc:
-    ~/.editorconfig:
-
 - shell:
-    - . aliases.sh
-    - command: bash vscode/install-extensions.sh
+    - command: . aliases.sh
       stderr: true
       stdout: true
