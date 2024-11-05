@@ -17,3 +17,9 @@
       stderr: true
       stdout: true
       stdin: true
+
+- shell:
+    - command: alias lsa='ls -GFlah'
+      stderr: true
+      stdout: true
+      stdin: true
