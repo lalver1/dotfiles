@@ -14,9 +14,7 @@
     ~/.editorconfig:
 
 - shell:
-    - command: bash aliases.sh
-      stderr: true
-      stdout: true
+    - . aliases.sh
     - command: bash vscode/install-extensions.sh
       stderr: true
       stdout: true
